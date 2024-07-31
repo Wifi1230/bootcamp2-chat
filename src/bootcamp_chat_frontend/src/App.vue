@@ -65,7 +65,7 @@ export default {
     async login() {
       const authClient = await AuthClient.create();
       await authClient.login({
-        identityProvider: "http://avqkn-guaaa-aaaaa-qaaea-cai.localhost:4943/",
+        identityProvider: "http://b77ix-eeaaa-aaaaa-qaada-cai.localhost:4943/",
         onSuccess: async () => {
           const identity = authClient.getIdentity();
           const principal = identity.getPrincipal();
